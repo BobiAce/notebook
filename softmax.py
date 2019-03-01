@@ -39,3 +39,9 @@ def softMax(x,y,alpha):
         gradient=(fraction-y_vector)*x[k]
         theta-=alpha*gradient#更新theta矩阵
     return theta
+
+
+
+
+
+
