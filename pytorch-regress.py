@@ -75,7 +75,7 @@ print('weight:\n',model.weight)
 print('bias:\n',model.bias)
 loss_fn = F.mse_loss
 loss = loss_fn(model(inputs),targets)
-print('loss:\n',loss)
+print('loss:\n', loss)
 opt = torch.optim.SGD(model.parameters(),lr=1e-5)
 
 pred = model(inputs)
